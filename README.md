@@ -3,16 +3,18 @@
 ### You will need
 
 - Arduino UNO
-- Ampifier circuit
+- MAX9744 Amplifier circuit
 - Transducer speaker or Cone speaker
 - Screwdriver
 - Jump leads
+
+Equipment can be borrowed from the loans room
 
 ----
 
 ### Assembly 
 
-Connect the module to the Arduino UNO and the speaker [here]() Connect the digital pin to the positive terminal of the input.
+Connect the module to the Arduino UNO and the speaker [here](https://github.com/kingston-hackSpace/Making-a-sound-emitter-with-Arduino-and-amplifier/blob/main/accoustic_driver_bb.png) Connect the digital pin to the positive terminal of the input.
 
 ---
 
@@ -20,4 +22,4 @@ Connect the module to the Arduino UNO and the speaker [here]() Connect the digit
 
 The code makes use of the Tone command to generate a signal from the digital pin. Other methods for generating a signal are possible using combinations of digital write commands.
 
-An mp3 shield to generate a sound signal. More about this can be found [here]()
+An mp3 shield to generate a sound signal. More about this can be found [here](https://github.com/kingston-hackSpace/MP3_shield_with_ultrasonic_sensors)
