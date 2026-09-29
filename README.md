@@ -1,6 +1,6 @@
 # Sound emitter
 
-###You will need
+### You will need
 
 - Arduino UNO
 - Ampifier circuit
@@ -8,9 +8,13 @@
 - Screwdriver
 - Jump leads
 
-###Assembly 
+----
+
+### Assembly 
 
 Connect the module to the Arduino UNO and the speaker [here]() Connect the digital pin to the positive terminal of the input.
+
+---
 
 ###Generating a signal
 
