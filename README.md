@@ -18,7 +18,7 @@ Connect the module to the Arduino UNO and the speaker [here](https://github.com/
 
 ---
 
-###Generating a signal
+### Generating a signal
 
 The code makes use of the Tone command to generate a signal from the digital pin. Other methods for generating a signal are possible using combinations of digital write commands.
 
