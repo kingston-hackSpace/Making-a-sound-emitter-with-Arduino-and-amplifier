@@ -3,7 +3,7 @@
 ### You will need
 
 - Arduino UNO
-- MAX9744 Amplifier circuit
+- MAX9744 Amplifier circuit (with 12V power supply)
 - Transducer speaker or Cone speaker
 - Screwdriver
 - Jump leads
