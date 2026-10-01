@@ -4,7 +4,7 @@
 ### HARDWARE
 
 - Arduino UNO
-- MAX9744 Amplifier circuit
+- MAX9744 Amplifier board
 - 12V Power Supply
 - Transducer speaker or Cone speaker
 - Screwdriver
