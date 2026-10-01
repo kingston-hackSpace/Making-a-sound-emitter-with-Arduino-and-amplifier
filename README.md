@@ -25,9 +25,11 @@ This project turns an Arduino UNO into a simple sound source.
 - Power the Amplifier using the 12V Power Supply
 
 ---
+### CODE and INSTRUCTIONS
 
-### Generating a signal
+---
+### UNDERSTANDING THE CODE: Generating a signal
 
-The code makes use of the Tone command to generate a signal from the digital pin. Other methods for generating a signal are possible using combinations of digital write commands.
+The code makes use of the ***Tone*** command to generate a signal from the digital pin. Other methods for generating a signal are possible using combinations of digital write commands.
 
 An mp3 shield to generate a sound signal. More about this can be found [here](https://github.com/kingston-hackSpace/MP3_shield_with_ultrasonic_sensors)
