@@ -1,4 +1,8 @@
 # Sound emitter
+----
+### DESCRIPTION
+
+This project turns an Arduino UNO into a simple sound source.
 
 ----
 ### HARDWARE
