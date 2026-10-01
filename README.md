@@ -52,6 +52,8 @@ void loop() {
 ---
 ### UNDERSTANDING THE CODE: Generating a signal
 
-The code makes use of the ***Tone*** command to generate a signal from the digital pin. Other methods for generating a signal are possible using combinations of digital write commands.
+The code makes use of the ***Tone*** command to generate a signal from the digital pin. 
+
+**tone(tonePin, 1000, 500)** generates a 1000 Hz square wave, which is a high, electronic-sounding pitch, for half a second. Then **delay(1000)** waits one second before the loop starts again.
 
 An mp3 shield to generate a sound signal. More about this can be found [here](https://github.com/kingston-hackSpace/MP3_shield_with_ultrasonic_sensors)
