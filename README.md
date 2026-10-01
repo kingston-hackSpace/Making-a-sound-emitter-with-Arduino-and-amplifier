@@ -18,11 +18,11 @@ This project turns an Arduino UNO into a simple sound source.
 
 <img src = "accoustic_driver_bb.png" width = "800">
 
-- Connect the module to the Arduino UNO and the speaker.
+Connect the Amplifier module to the Arduino UNO and the speaker as in the diagram above. 
 
-- Connect the digital pin to the positive terminal of the input (L).
+    - Connect the **Arduino pin 9** to the Amplifier's **L** input terminal (positive).
 
-- Power the Amplifier using the 12V Power Supply
+    - Power the Amplifier using the 12V Power Supply
 
 ---
 ### CODE and INSTRUCTIONS
