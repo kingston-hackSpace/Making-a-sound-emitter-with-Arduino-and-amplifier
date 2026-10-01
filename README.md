@@ -2,13 +2,7 @@
 ----
 ### DESCRIPTION
 
-This tutorial shows how to make an Arduino UNO produce sound through a speaker using the MAX9744 amplifier.
-
-*NOTE: ACOUSTIC TESTING*
-
- *- This project was created as an specific acoustic test for architecture. The code plays a 1000 Hz square wave, which is a standard reference frequency in acoustics.*
-
- *- You can change the tone and composition for other creative porpuses*
+This project turns an Arduino UNO into a simple sound source.
 
 ----
 ### HARDWARE
@@ -26,9 +20,9 @@ This tutorial shows how to make an Arduino UNO produce sound through a speaker u
 
 Connect the Amplifier module to the Arduino UNO and the speaker as in the diagram above. 
 
-    - Connect the **Arduino pin 9** to the Amplifier's **L** input terminal (positive).
+ - Connect the **Arduino pin 9** to the Amplifier's **L** input terminal (positive).
 
-    - Power the Amplifier using the 12V Power Supply
+ - Power the Amplifier using the 12V Power Supply
 
 ---
 ### CODE and INSTRUCTIONS
@@ -52,8 +46,14 @@ void loop() {
 ---
 ### UNDERSTANDING THE CODE: Generating a signal
 
-The code makes use of the ***Tone*** command to generate a signal from the digital pin. 
+The code makes use of the ***Tone*** command to generate a *square wave* signal from the digital pin. 
 
-**tone(tonePin, 1000, 500)** generates a 1000 Hz square wave, which is a high, electronic-sounding pitch, for half a second. Then **delay(1000)** waits one second before the loop starts again.
+**tone(tonePin, 1000, 500)** generates a *1000* Hz square wave, which is a high, electronic-sounding pitch, for half a second. *500* is the duration in milliseconds, so the tone lasts half a second and then stops by itself. *delay(1000)* creates a 1 second pause before restarting a new loop and calling tone() again. 
 
-An mp3 shield to generate a sound signal. More about this can be found [here](https://github.com/kingston-hackSpace/MP3_shield_with_ultrasonic_sensors)
+NOTE: Each half-second tone is followed by half a second of silence, and in that gap you can hear the sound die away in the room. That decay is reverberation. Measuring how long it takes is one of the basic tests of a space, usually expressed as RT60, the time it takes for sound to drop by 60 dB. 
+
+
+---
+### MORE TUTORIALS
+
+- An mp3 shield to generate a sound signal. More about this can be found [here](https://github.com/kingston-hackSpace/MP3_shield_with_ultrasonic_sensors)
