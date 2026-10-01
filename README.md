@@ -15,7 +15,7 @@ This project turns an Arduino UNO into a simple sound source, using the MAX9744 
 
 - Arduino UNO
 - MAX9744 Amplifier board
-- 12V Power Supply
+- 5V Power Supply
 - Transducer speaker or Cone speaker
 - Small screwdriver
 
