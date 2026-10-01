@@ -1,6 +1,7 @@
 # Sound emitter
 
-### You will need
+----
+### HARDWARE
 
 - Arduino UNO
 - MAX9744 Amplifier circuit
@@ -10,8 +11,7 @@
 - Jump leads
 
 ----
-
-### Assembly 
+### WIRING
 
 Connect the module to the Arduino UNO and the speaker [here](https://github.com/kingston-hackSpace/Making-a-sound-emitter-with-Arduino-and-amplifier/blob/main/accoustic_driver_bb.png) Connect the digital pin to the positive terminal of the input.
 
