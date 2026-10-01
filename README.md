@@ -2,7 +2,13 @@
 ----
 ### DESCRIPTION
 
-This project turns an Arduino UNO into a simple sound source.
+This tutorial shows how to make an Arduino UNO produce sound through a speaker using the MAX9744 amplifier.
+
+*NOTE: ACOUSTIC TESTING*
+
+ *- This project was created as an specific acoustic test for architecture. The code plays a 1000 Hz square wave, which is a standard reference frequency in acoustics.*
+
+ *- You can change the tone and composition for other creative porpuses*
 
 ----
 ### HARDWARE
